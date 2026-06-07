@@ -41,7 +41,6 @@ class _WebViewScreenState extends State<WebViewScreen> {
           onWebResourceError: (WebResourceError error) {},
         ),
       )
-    // ↓↓↓ REPLACE THIS WITH YOUR ACTUAL WEBSITE URL ↓↓↓
       ..loadRequest(Uri.parse('https://saber-lilac.vercel.app'));
   }
 
